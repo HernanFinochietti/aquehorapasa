@@ -1,0 +1,119 @@
+h1{
+    text-align: center;
+    font-weight: 200;
+    text-decoration: solid;
+    line-height: 3em; 
+    font-size: 100px; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #0c110a;
+}
+div{
+    text-align: center;
+}
+div > img{
+    width: 300px;
+    height: 300px;
+}
+html{
+    background: url(caballofinal.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.zoom {
+    transition: transform .2s; 
+}
+.zoom:hover {
+    transform: scale(2.0); 
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: solid;
+    line-height: 3em; 
+    font-size: 25px; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    backdrop-filter: blur(2px);
+}
+div > a{
+    text-align: center;
+    font-weight: 200;
+    color: purple;
+    font-size: 1px;
+    font-family: system-ui;
+    border-radius: 50%;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    backdrop-filter: blur(10px);
+    color: rgb(19, 11, 19);
+}
+.dark{
+    text-align:end;
+}
+.circular--square {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+@media (max-width : 900px){
+    .zoom {
+        transition: transform .2s; 
+    }
+    .zoom:hover {
+        transform: scale(1.5); 
+    }
+    h4{
+        font-size: 20px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        backdrop-filter: blur(1px);
+        color: rgb(19, 11, 19);
+        border: 2px solid #202325;
+        border-radius: 10px;
+        list-style-type: none;
+        margin-top: 4em;
+        padding: 0;
+        display: flex;
+    }
+    h1{
+        text-align: center;
+        font-weight: 400;
+        text-decoration: solid;
+        line-height: 3em; 
+        font-size: 50px; 
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: transparent;
+      -moz-text-stroke-width: 2px;
+      -webkit-text-stroke-width: 2px;
+      -moz-text-stroke-color: #000000;
+      -webkit-text-stroke-color: #0c110a;
+      border: 3px solid #202325;
+      border-radius: 10px;
+      backdrop-filter: blur(1px);
+    }
+    h2{
+        text-align: center;
+        font-weight: 400;
+        text-decoration: solid;
+        line-height: 3em; 
+        font-size: 25px; 
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: transparent;
+      -moz-text-stroke-width: 2px;
+      -webkit-text-stroke-width: 2px;
+      -moz-text-stroke-color: #000000;
+      -webkit-text-stroke-color: #0c110a;
+        backdrop-filter: blur(1px);
+        border: 3px solid #202325;
+        border-radius: 10px;
+    }
+}
